@@ -2,6 +2,7 @@
 
 body {
     font-family: 'Roboto', Helvetica, sans-serif;
+    margin: 0;
 }
 
 ul {
@@ -17,12 +18,17 @@ ul li {
 
 a {
     text-decoration: none;
-    color: white;
+    color: inherit;
 }
 
 .hero {
     background-color: #1F2937;
-    padding: 0 140px 90px 140px;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    padding: 0 290px 60px 290px;
+    color: white;
+    gap: 70px;
 }
 
 .header {
@@ -35,12 +41,55 @@ a {
     flex: 1;
     font-weight: bold;
     color: white;
-    font-size: 20px;
+    font-size: 24px;
+    color: #F9FAF8;
 }
 
 .header-links {
+    color: #E5E7EB;
     display: flex;
     gap: 24px;
 }
 
+.main {
+    flex: 2;
+    display: flex;
+    align-items: center;
+    margin-bottom: 70px;
+    gap: 20px;
+}
 
+.content {
+    flex: 1 1 100%;
+    font-size: 18px;
+    text-align: left;
+    color: #E5E7EB;
+}
+
+.content h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+}
+
+.image {
+    flex: 1 1 100%;
+    background-color: rgb(121, 134, 158);
+    align-self: stretch;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content .sign-up-btn {
+    padding: 8px 28px;
+    background-color: #3882F6;
+    color: inherit;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    font-size: inherit;
+}
+
+.content .sign-up-btn:hover {
+    background-color: #1c6dee;
+}
