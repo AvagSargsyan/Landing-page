@@ -154,3 +154,52 @@ a {
     text-align: right;
     padding-right: 80px;
 }
+
+.sign-up-container {
+    height: 32vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 200px;
+}
+
+.sign-up-text {
+    background-color: #3882F6;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 30px 100px;
+    border-radius: 7px;
+}
+
+.sign-up-text .left {
+    flex: 1;
+}
+
+.sign-up-text .left .prompt-text {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.right .sign-up-btn {
+    padding: 8px 28px;
+    background-color: #3882F6;
+    color: inherit;
+    font-weight: bold;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-size: inherit;
+}
+
+.right .sign-up-btn:hover {
+    background-color: #4689f5;
+}
+
+footer {
+    background-color: #1F2937;
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
