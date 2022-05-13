@@ -93,3 +93,41 @@ a {
 .content .sign-up-btn:hover {
     background-color: #1c6dee;
 }
+
+.cards-container {
+    padding: 40px 0 100px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cards-container h2 {
+    padding-bottom: 30px;
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+.card {
+    width: 9vw;
+    height: 28vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.box {
+    border: 3px solid #1c6dee;
+    border-radius: 10px;
+    flex: 1;
+}
+
+.card-content {
+    text-align: center;
+    color: #40444b;
+}
