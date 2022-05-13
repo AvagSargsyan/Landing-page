@@ -131,3 +131,26 @@ a {
     text-align: center;
     color: #40444b;
 }
+
+.quote {
+    background-color: #E5E7EB;
+    height: 32vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 60px 440px;
+    
+}
+
+.quote .quote-text {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.quote .quote-author {
+    font-weight: bold;
+    text-align: right;
+    padding-right: 80px;
+}
